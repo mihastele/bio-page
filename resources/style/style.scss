@@ -1,0 +1,59 @@
+$goldernRatio: 1.61803398875;
+$maincolor: #e84118;
+$sligthlyBrigter: #eb5a37;
+$bright: #f4a794;
+$slightlyDarker: #ab2f11;
+$darker: #4e1608;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$headerheight: 300px;
+
+section {
+    width: 100vw;
+}
+
+.profileAvatarRegion {
+    width: 38vw;
+    height: 28vw;
+    display: inline-block;
+    margin: 0;
+    margin-top: 30px;
+
+    background-color: $maincolor;
+
+    h1 {
+        height: 7vw;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+        font-weight: 800;
+        font-size: 30px;
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    span {
+        display: inline-block;
+        height: 21vw;
+        width: 100%;
+        .avatarImg {
+            display: inline-block;
+            width: 50%;
+            margin: 0 25%;
+            border-radius: 50%;
+        }
+    }
+}
+
+.shortBio {
+    display: inline-block;
+    width: 60vw;
+    height: 28vw;
+    margin: 0;
+    margin-top: 30px;
+}
