@@ -8,6 +8,8 @@ $darker: #4e1608;
 $font-primary: "Jost", Arial, serif;
 $font-forHeadings: "Kaushan Script", cursive;
 
+$font-desc-color: #aaa;
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +27,7 @@ section {
     display: block;
     margin: 0;
     padding: 0;
-    background-image: url("../../vendors/images/monitors-bg.jpg");
+    background-image: url("../../vendors/images/computer-blurred.jpg");
     background-size: cover;
     .blendcolor {
         display: block;
@@ -71,6 +73,19 @@ section {
                 font-style: italic;
                 font-size: 64px;
                 margin: auto;
+            }
+
+            .social {
+                width: 300px;
+
+                a {
+                    display: block;
+                    margin: 0 25%;
+                    color: white;
+                    i {
+                        font-size: 32px;
+                    }
+                }
             }
         }
     }

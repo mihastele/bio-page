@@ -13,7 +13,7 @@ section {
   display: block;
   margin: 0;
   padding: 0;
-  background-image: url("../../vendors/images/monitors-bg.jpg");
+  background-image: url("../../vendors/images/computer-blurred.jpg");
   background-size: cover;
 }
 
@@ -65,6 +65,20 @@ section {
   font-style: italic;
   font-size: 64px;
   margin: auto;
+}
+
+.profileAvatarRegion .innerCenter .alignedChildren .social {
+  width: 300px;
+}
+
+.profileAvatarRegion .innerCenter .alignedChildren .social a {
+  display: block;
+  margin: 0 25%;
+  color: white;
+}
+
+.profileAvatarRegion .innerCenter .alignedChildren .social a i {
+  font-size: 32px;
 }
 
 @media only screen and (max-width: 600px) {
