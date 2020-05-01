@@ -5,6 +5,9 @@ $bright: #f4a794;
 $slightlyDarker: #ab2f11;
 $darker: #4e1608;
 
+$font-primary: "Jost", Arial, serif;
+$font-forHeadings: "Kaushan Script", cursive;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,37 +20,60 @@ section {
 }
 
 .profileAvatarRegion {
-    width: 38vw;
-    height: 28vw;
-    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    display: block;
     margin: 0;
-    margin-top: 30px;
-
-    background-color: $maincolor;
-
-    h1 {
-        height: 7vw;
-        text-align: center;
-        display: inline-block;
-        width: 100%;
-        color: #fff;
-        font-weight: 800;
-        font-size: 30px;
-        font-size: 5vw;
-        margin: 0;
+    padding: 0;
+    background-image: url("../../vendors/images/monitors-bg.jpg");
+    background-size: cover;
+    .blendcolor {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: $maincolor;
+        //mix-blend-mode: screen;
+        opacity: 90%;
     }
-
-    span {
+    .innerCenter {
         display: inline-block;
-        height: 21vw;
-        width: 100%;
-        .avatarImg {
+        height: 62%;
+        width: 62%;
+        position: relative;
+        left: 19%; // 50% - (62/2)%
+        top: 19%;
+
+        span {
+            vertical-align: middle;
             display: inline-block;
-            width: 50%;
-            margin: 0 25%;
-            border-radius: 50%;
+            width: 100%;
+            .avatarImg {
+                display: block;
+                width: 30%;
+                margin: auto;
+                border-radius: 50%;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            display: inline-block;
+            width: 100%;
+            color: #fff;
+            font-weight: 800;
+            font-family: $font-forHeadings;
+            font-style: italic;
+            font-size: 64px;
+            margin: 0;
         }
     }
+}
+
+.innerCenter {
+    display: block;
+    width: 62%;
+    height: 62%;
 }
 
 .shortBio {
