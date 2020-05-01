@@ -38,6 +38,7 @@ section {
 }
 
 .profileAvatarRegion .innerCenter .alignedChildren {
+  width: 100%;
   margin: auto;
 }
 
@@ -91,6 +92,18 @@ section {
     width: 64px;
   }
   .profileAvatarRegion .innerCenter .alignedChildren h1 {
+    font-size: 16px;
+  }
+  .profileAvatarRegion .innerCenter .alignedChildren .social {
+    width: 90px;
+  }
+  .profileAvatarRegion .innerCenter .alignedChildren .social a {
+    display: block;
+    margin: 6px auto;
+    width: 16px;
+    color: white;
+  }
+  .profileAvatarRegion .innerCenter .alignedChildren .social a i {
     font-size: 16px;
   }
 }
