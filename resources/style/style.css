@@ -27,7 +27,9 @@ section {
 }
 
 .profileAvatarRegion .innerCenter {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 62%;
   width: 62%;
   position: relative;
@@ -35,20 +37,25 @@ section {
   top: 19%;
 }
 
-.profileAvatarRegion .innerCenter span {
+.profileAvatarRegion .innerCenter .alignedChildren {
+  margin: auto;
+}
+
+.profileAvatarRegion .innerCenter .alignedChildren span {
   vertical-align: middle;
   display: inline-block;
+  margin: auto;
   width: 100%;
 }
 
-.profileAvatarRegion .innerCenter span .avatarImg {
+.profileAvatarRegion .innerCenter .alignedChildren span .avatarImg {
   display: block;
-  width: 30%;
+  width: 256px;
   margin: auto;
   border-radius: 50%;
 }
 
-.profileAvatarRegion .innerCenter h1 {
+.profileAvatarRegion .innerCenter .alignedChildren h1 {
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -57,7 +64,21 @@ section {
   font-family: "Kaushan Script", cursive;
   font-style: italic;
   font-size: 64px;
-  margin: 0;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .profileAvatarRegion .innerCenter .alignedChildren span {
+    vertical-align: middle;
+    display: inline-block;
+    width: 100%;
+  }
+  .profileAvatarRegion .innerCenter .alignedChildren span .avatarImg {
+    width: 64px;
+  }
+  .profileAvatarRegion .innerCenter .alignedChildren h1 {
+    font-size: 16px;
+  }
 }
 
 .innerCenter {
