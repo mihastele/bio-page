@@ -246,4 +246,20 @@ hr {
 .services .row .col-md * {
   text-align: center;
 }
+
+.services .row .col-md i {
+  display: inline-block;
+  margin: 16px;
+  font-size: 32px;
+  color: #e84118;
+}
+
+.services .row .col-md div {
+  margin: 0 auto;
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: white;
+}
 /*# sourceMappingURL=style.css.map */

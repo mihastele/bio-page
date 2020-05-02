@@ -269,6 +269,22 @@ hr {
             * {
                 text-align: center;
             }
+            
+            i {
+                display: inline-block;
+                margin: 16px;
+                font-size: 32px;
+                color: $maincolor;
+            }
+
+            div{
+                margin: 0 auto;
+                display: block;
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                background-color: white;
+            }
         }
     }
 }
