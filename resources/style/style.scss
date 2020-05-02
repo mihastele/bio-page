@@ -148,7 +148,9 @@ section {
     margin-top: 30px;
 }*/
 
+/*
 .sectionContainer {
+    /*
     :nth-child(odd of section) {
         background-color: white;
         color: $font-desc-color;
@@ -162,14 +164,16 @@ section {
         margin: 0 0 10px;
     }
 
+    /*
     section {
         display: block;
         margin: 10px 0;
-    }
-}
+    }*/
+//}
 
 .contentContainer {
     margin: 20px;
+    padding: 5px 0;
 
     h1 {
         font-weight: 900;
@@ -181,7 +185,10 @@ section {
     }
 }
 
-.oddText {
+.odd {
+    background-color: white;
+    //color: $maincolor;
+
     h1,
     h2,
     p {
@@ -190,7 +197,10 @@ section {
     }
 }
 
-.evenText {
+.even {
+    background-color: transparentize($color: $maincolor, $amount: 0.1);
+    //color: white;
+
     h1,
     h2,
     p {

@@ -129,27 +129,30 @@ section {
     margin: 0;
     margin-top: 30px;
 }*/
-.sectionContainer :nth-child(odd of section) {
-  background-color: white;
-  color: #aaa;
-}
+/*
+.sectionContainer {
+    /*
+    :nth-child(odd of section) {
+        background-color: white;
+        color: $font-desc-color;
+    }
+    :nth-child(even of section) {
+        background-color: transparentize($color: $maincolor, 0.1);
+        color: white;
+    }
 
-.sectionContainer :nth-child(even of section) {
-  background-color: rgba(232, 65, 24, 0.9);
-  color: white;
-}
+    :nth-child(1) {
+        margin: 0 0 10px;
+    }
 
-.sectionContainer :nth-child(1) {
-  margin: 0 0 10px;
-}
-
-.sectionContainer section {
-  display: block;
-  margin: 10px 0;
-}
-
+    /*
+    section {
+        display: block;
+        margin: 10px 0;
+    }*/
 .contentContainer {
   margin: 20px;
+  padding: 5px 0;
 }
 
 .contentContainer h1 {
@@ -162,16 +165,24 @@ section {
   font-size: 32px;
 }
 
-.oddText h1,
-.oddText h2,
-.oddText p {
+.odd {
+  background-color: white;
+}
+
+.odd h1,
+.odd h2,
+.odd p {
   color: #e84118;
   opacity: 90%;
 }
 
-.evenText h1,
-.evenText h2,
-.evenText p {
+.even {
+  background-color: rgba(232, 65, 24, 0.9);
+}
+
+.even h1,
+.even h2,
+.even p {
   color: white;
 }
 /*# sourceMappingURL=style.css.map */
