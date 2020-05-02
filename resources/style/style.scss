@@ -66,6 +66,13 @@ section {
                 }
             }
 
+            p {
+                text-align: center;
+                font-size: 18px;
+                font-family: $font-primary;
+                color: white;
+            }
+
             h1 {
                 text-align: center;
                 display: inline-block;
@@ -132,10 +139,61 @@ section {
     height: 62%;
 }
 
+/*
 .shortBio {
     display: inline-block;
     width: 60vw;
     height: 28vw;
     margin: 0;
     margin-top: 30px;
+}*/
+
+.sectionContainer {
+    :nth-child(odd of section) {
+        background-color: white;
+        color: $font-desc-color;
+    }
+    :nth-child(even of section) {
+        background-color: transparentize($color: $maincolor, 0.1);
+        color: white;
+    }
+
+    :nth-child(1) {
+        margin: 0 0 10px;
+    }
+
+    section {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.contentContainer {
+    margin: 20px;
+
+    h1 {
+        font-weight: 900;
+        font-size: 64px;
+    }
+    h2 {
+        font-weight: 600;
+        font-size: 32px;
+    }
+}
+
+.oddText {
+    h1,
+    h2,
+    p {
+        color: $maincolor;
+        opacity: 90%;
+    }
+}
+
+.evenText {
+    h1,
+    h2,
+    p {
+        color: white;
+    }
 }

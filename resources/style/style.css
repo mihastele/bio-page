@@ -56,6 +56,13 @@ section {
   border-radius: 50%;
 }
 
+.profileAvatarRegion .innerCenter .alignedChildren p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Jost", Arial, serif;
+  color: white;
+}
+
 .profileAvatarRegion .innerCenter .alignedChildren h1 {
   text-align: center;
   display: inline-block;
@@ -114,11 +121,57 @@ section {
   height: 62%;
 }
 
+/*
 .shortBio {
-  display: inline-block;
-  width: 60vw;
-  height: 28vw;
-  margin: 0;
-  margin-top: 30px;
+    display: inline-block;
+    width: 60vw;
+    height: 28vw;
+    margin: 0;
+    margin-top: 30px;
+}*/
+.sectionContainer :nth-child(odd of section) {
+  background-color: white;
+  color: #aaa;
+}
+
+.sectionContainer :nth-child(even of section) {
+  background-color: rgba(232, 65, 24, 0.9);
+  color: white;
+}
+
+.sectionContainer :nth-child(1) {
+  margin: 0 0 10px;
+}
+
+.sectionContainer section {
+  display: block;
+  margin: 10px 0;
+}
+
+.contentContainer {
+  margin: 20px;
+}
+
+.contentContainer h1 {
+  font-weight: 900;
+  font-size: 64px;
+}
+
+.contentContainer h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.oddText h1,
+.oddText h2,
+.oddText p {
+  color: #e84118;
+  opacity: 90%;
+}
+
+.evenText h1,
+.evenText h2,
+.evenText p {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
