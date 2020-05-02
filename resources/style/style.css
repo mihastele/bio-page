@@ -262,4 +262,19 @@ hr {
   border-radius: 50%;
   background-color: white;
 }
+
+.skills .row .col-sm div {
+  display: block;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.skills .row .col-sm div img {
+  width: 32px;
+}
+
+.skills .row .col-sm h3 {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
