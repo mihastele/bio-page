@@ -1,6 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Jost", Arial, serif;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+}
+
+h1,
+h2 {
+  text-align: center;
 }
 
 section {
@@ -151,8 +161,8 @@ section {
         margin: 10px 0;
     }*/
 .contentContainer {
-  margin: 20px;
-  padding: 5px 0;
+  margin: 0;
+  padding: 30px 0;
 }
 
 .contentContainer h1 {
@@ -175,6 +185,7 @@ section {
 
 .odd h1,
 .odd h2,
+.odd h3,
 .odd p {
   color: #e84118;
   opacity: 90%;
@@ -186,7 +197,53 @@ section {
 
 .even h1,
 .even h2,
+.even h3,
 .even p {
   color: white;
+}
+
+.longDescription {
+  padding: 0 25%;
+}
+
+.timeline {
+  width: 200px;
+  position: absolute;
+  border-top: 3px solid rgba(232, 65, 24, 0.9);
+  border-left: 3px solid rgba(232, 65, 24, 0.9);
+}
+
+hr {
+  border-top: 2px solid rgba(232, 65, 24, 0.9);
+}
+
+#education,
+#work,
+#freeTime {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#education *,
+#work *,
+#freeTime * {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/*
+.services {
+    .row {
+        .col {
+            margin: 20px;
+            
+            * {
+                margin: 0 auto;
+                width: 255px;
+            }
+        }
+    }
+}
+*/
+.services .row .col-md * {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

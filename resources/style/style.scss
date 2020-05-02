@@ -15,6 +15,16 @@ $font-desc-color: #aaa;
 * {
     margin: 0;
     padding: 0;
+    font-family: $font-primary;
+}
+
+h1 {
+    font-family: $font-forHeadings;
+}
+
+h1,
+h2 {
+    text-align: center;
 }
 
 $headerheight: 300px;
@@ -172,8 +182,8 @@ section {
 //}
 
 .contentContainer {
-    margin: 20px;
-    padding: 5px 0;
+    margin: 0;
+    padding: 30px 0;
 
     h1 {
         font-weight: 900;
@@ -194,6 +204,7 @@ section {
 
     h1,
     h2,
+    h3,
     p {
         color: $maincolor;
         opacity: 90%;
@@ -206,7 +217,58 @@ section {
 
     h1,
     h2,
+    h3,
     p {
         color: white;
+    }
+}
+
+.longDescription {
+    padding: 0 25%;
+}
+
+.timeline {
+    width: 200px;
+    position: absolute;
+    border-top: 3px solid transparentize($color: $maincolor, $amount: 0.1);
+    border-left: 3px solid transparentize($color: $maincolor, $amount: 0.1);
+}
+
+hr {
+    border-top: 2px solid transparentize($color: $maincolor, $amount: 0.1);
+}
+
+#education,
+#work,
+#freeTime {
+    font-family: Helvetica, Arial, sans-serif;
+
+    * {
+        font-family: Helvetica, Arial, sans-serif;
+    }
+}
+
+/*
+.services {
+    .row {
+        .col {
+            margin: 20px;
+            
+            * {
+                margin: 0 auto;
+                width: 255px;
+            }
+        }
+    }
+}
+*/
+
+.services {
+    .row {
+        .col-md {
+            * {
+                text-align: center;
+            }
+        }
     }
 }
