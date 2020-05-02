@@ -6,4 +6,5 @@ const toEven = $(".sectionContainer section:nth-child(even) .contentContainer");
 
 toOdd.addClass("odd");
 toEven.addClass("even");
-$(".sectionContainer section:nth-child(1)").css("margin-top","30px");
+$(".sectionContainer section:first-child() .contentContainer").css("margin-top","30px");
+$(".sectionContainer section:last-child() .contentContainer").css("margin-bottom","0");
