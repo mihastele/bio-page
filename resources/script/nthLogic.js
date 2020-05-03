@@ -27,7 +27,8 @@ var struct = `<li>
 
 // [[GRADUATION_TITLE, YEAR_FROM-YEAR_TO, SCHOOL/UNIVERSITY], ...]
 // [[JOB_TITLE, YEAR_FROM-YEAR_TO, COMPANY], ...]
-var liPairsEducation = [["Bachelor CS Degree", "2015-2018", "Faculty of Computer and Information Science - University of Ljubljana"], ["Electrical Engineer", "2011-2015", "Vegova – Upper Secondary School of Electrical and Computer Engineering and Technical Gymnasium Ljubljana"]]
+var liPairsEducation = [["Bachelor CS Degree", "2015-2018", "Faculty of Computer and Information Science - University of Ljubljana"],
+["Electrical Engineer", "2011-2015", "Vegova – Upper Secondary School of Electrical and Computer Engineering and Technical Gymnasium Ljubljana"]]
 
 liPairsEducation.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
@@ -42,7 +43,8 @@ liPairsEducation.forEach(liPair => {
 })
 
 
-var liPairsWork = [["QA Automation Engineer", "2019-", "Beenius"], ["Software engineer", "2017-2019", "Beenius"]];
+var liPairsWork = [["QA Automation Engineer", "2019-", "Beenius"],
+["Software engineer", "2017-2019", "Beenius"]];
 
 liPairsWork.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
@@ -57,7 +59,10 @@ liPairsWork.forEach(liPair => {
 })
 
 
-var liPairsFree = [["Professional website projects (including this profile page)", "2020-"], ["Home made loudspeaker", "2020"], ["Bladeless fan with 3d printer", "2019"], ["Personal social media application", "2019"], ["Tower defense Android application with LibGDX", "2017"]];
+var liPairsFree = [["Professional website projects (including this profile page)", "2020-"],
+["Home made loudspeaker", "2020"], ["Bladeless fan with 3D printer", "2019"],
+["Personal social media application", "2019"],
+["Tower defense Android application with LibGDX", "2017"]];
 
 liPairsFree.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
