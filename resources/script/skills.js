@@ -112,7 +112,7 @@ items = [{
     percentage: 24
 },
 {
-    name: "Elastic Stack",
+    name: "ELK",
     percentage: 10
 }
 ];
@@ -139,10 +139,10 @@ items.forEach(item => {
             color = colorsByLevel[1]
         }
         levelString = `<div class="row">
-        <div class="col-2">
+        <div class="col-xl-1">
             <p>${item.name}</p>
         </div>
-        <div class="col-10">
+        <div class="col-11">
             <div class="progress">
                 <div class="progress-bar progress-bar-striped ${color} progress-bar-animated"
                     role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
@@ -154,10 +154,10 @@ items.forEach(item => {
         if (item.percentage < 70) {
             color = colorsByLevel[2];
             levelString = `<div class="row">
-        <div class="col-2">
+        <div class="col-xl-1">
             <p>${item.name}</p>
         </div>
-        <div class="col-10">
+        <div class="col-11">
             <div class="progress">
                 <div class="progress-bar progress-bar-striped ${color} progress-bar-animated"
                     role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
@@ -168,10 +168,10 @@ items.forEach(item => {
         } else if (item.percentage < 80) {
             color = colorsByLevel[2];
             levelString = `<div class="row">
-        <div class="col-2">
+        <div class="col-xl-1">
             <p>${item.name}</p>
         </div>
-        <div class="col-10">
+        <div class="col-11">
             <div class="progress">
                 <div class="progress-bar ${color}" role="progressbar"
                     style="width: ${item.percentage}%; height: 100%;" aria-valuenow="25" aria-valuemin="0"
@@ -182,10 +182,10 @@ items.forEach(item => {
         } else {
             color = colorsByLevel[3];
             levelString = `<div class="row">
-        <div class="col-2">
+        <div class="col-xl-1">
             <p>${item.name}</p>
         </div>
-        <div class="col-10">
+        <div class="col-11">
             <div class="progress">
                 <div class="progress-bar ${color}" role="progressbar"
                     style="width: ${item.percentage}%; height: 100%;" aria-valuenow="25" aria-valuemin="0"

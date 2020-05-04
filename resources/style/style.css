@@ -106,10 +106,10 @@ section {
     width: 100%;
   }
   .profileAvatarRegion .innerCenter .alignedChildren span .avatarImg {
-    width: 64px;
+    width: 128px;
   }
   .profileAvatarRegion .innerCenter .alignedChildren h1 {
-    font-size: 16px;
+    font-size: 32px;
   }
   .profileAvatarRegion .innerCenter .alignedChildren .social {
     width: 90px;
@@ -121,7 +121,7 @@ section {
     color: white;
   }
   .profileAvatarRegion .innerCenter .alignedChildren .social a i {
-    font-size: 16px;
+    font-size: 28px;
   }
 }
 
@@ -266,6 +266,10 @@ hr {
 .skills {
   width: 100%;
   /*
+    * {
+         text-align: right;
+    } */
+  /*
     .row {
         .col-sm {
             div {
@@ -286,6 +290,7 @@ hr {
 
 .skills .row {
   width: 100%;
+  margin: auto;
 }
 
 .skills .row * {
@@ -293,7 +298,7 @@ hr {
   padding: 0 10px 0 0;
 }
 
-.skills * {
-  text-align: right;
+.skills .row p {
+  width: 100px;
 }
 /*# sourceMappingURL=style.css.map */

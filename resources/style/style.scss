@@ -119,22 +119,23 @@ section {
                     display: inline-block;
                     width: 100%;
                     .avatarImg {
-                        width: 64px;
+                        width: 128px;
                     }
                 }
                 h1 {
-                    font-size: 16px;
+                    font-size: 32px;
                 }
                 .social {
                     width: 90px;
 
+                    
                     a {
                         display: block;
                         margin: 6px auto;
                         width: 16px;
                         color: white;
                         i {
-                            font-size: 16px;
+                            font-size: 28px;
                         }
                     }
                 }
@@ -294,17 +295,23 @@ hr {
 
     .row {
         width: 100%;
+        margin: auto;
 
         * {
             margin: auto 0;
             padding: 0 10px 0 0;
         }
+
+        p {
+            width: 100px;
+        }
         
     }
 
+    /*
     * {
-        text-align: right;
-    }
+         text-align: right;
+    } */
     /*
     .row {
         .col-sm {
