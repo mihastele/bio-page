@@ -247,6 +247,10 @@ hr {
   text-align: center;
 }
 
+.services .row .col-md p {
+  margin: 8px 8px 24px;
+}
+
 .services .row .col-md i {
   display: inline-block;
   margin: 16px;
