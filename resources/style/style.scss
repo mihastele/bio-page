@@ -128,7 +128,6 @@ section {
                 .social {
                     width: 90px;
 
-                    
                     a {
                         display: block;
                         margin: 6px auto;
@@ -305,7 +304,6 @@ hr {
         p {
             width: 100px;
         }
-        
     }
 
     /*
@@ -329,4 +327,31 @@ hr {
             }
         }
     }*/
+}
+
+.cardFrame {
+    display: flex;
+    margin: auto;
+    width: 17rem;
+    height: 17rem;
+
+    img {
+        margin: auto;
+        width: 100%;
+    }
+}
+
+.card-body {
+    p,
+    h5 {
+        color: #888;
+    }
+    .card-text {
+        height: 100px;
+    }
+
+    .btn {
+        background-color: $maincolor;
+        border-color: $maincolor;;
+    }
 }
