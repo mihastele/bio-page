@@ -2,20 +2,38 @@ items = [{
     name: "Java",
     percentage: 90,
     colorCSS: "bg-success" // deprecated
-}, {
-    name: "Javascript",
-    percentage: 85
-}, {
-    name: "Python",
-    percentage: 85
 },
 {
     name: "HTML",
-    percentage: 85
+    percentage: 90
+},
+{
+    name: "Javascript",
+    percentage: 90
+},
+{
+    name: "Python",
+    percentage: 88
+},
+{
+    name: "Git",
+    percentage: 88
 },
 {
     name: "CSS",
     percentage: 85
+},
+{
+    name: "Bash",
+    percentage: 80
+},
+{
+    name: "SQL",
+    percentage: 80
+},
+{
+    name: "Docker",
+    percentage: 80
 },
 {
     name: "Typescript",
@@ -30,11 +48,19 @@ items = [{
     percentage: 75
 },
 {
-    name: "Ruby",
+    name: "MySQL",
     percentage: 70
 },
 {
-    name: "MySQL",
+    name: "NodeJS",
+    percentage: 70
+},
+{
+    name: "PostgreSQL",
+    percentage: 70
+},
+{
+    name: "Subversion",
     percentage: 70
 },
 {
@@ -42,13 +68,29 @@ items = [{
     percentage: 65
 },
 {
+    name: "MongoDB",
+    percentage: 65
+},
+{
     name: "PHP",
     percentage: 65
 },
 {
+    name: "Ruby",
+    percentage: 65
+},
+{
+    name: "Cucumber",
+    percentage: 63
+},
+{
+    name: "Spring",
+    percentage: 60
+},
+{
     name: "Oracle",
     percentage: 55
-}, 
+},
 {
     name: "Kubernetes",
     percentage: 45
@@ -58,22 +100,30 @@ items = [{
     percentage: 35
 },
 {
+    name: "Openshift",
+    percentage: 28
+},
+{
     name: "React",
     percentage: 24
 },
 {
     name: "Angular",
     percentage: 24
+},
+{
+    name: "Elastic Stack",
+    percentage: 10
 }
 ];
 
 
 function sortByKey(array, key) {
-    return array.sort(function(a, b) {
+    return array.sort(function (a, b) {
         var x = a[key]; var y = b[key];
         return ((x > y) ? -1 : ((x < y) ? 1 : 0));
     });
-    }
+}
 
 // items = sortByKey(items, "percentage");
 
