@@ -263,18 +263,37 @@ hr {
   background-color: white;
 }
 
-.skills .row .col-sm div {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
+.skills {
+  width: 100%;
+  /*
+    .row {
+        .col-sm {
+            div {
+                display: block;
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                img {
+                    width: 32px;
+                }
+            }
+            h3 {
+                text-align: center;
+            }
+        }
+    }*/
 }
 
-.skills .row .col-sm div img {
-  width: 32px;
+.skills .row {
+  width: 100%;
 }
 
-.skills .row .col-sm h3 {
-  text-align: center;
+.skills .row * {
+  margin: auto 0;
+  padding: 0 10px 0 0;
+}
+
+.skills * {
+  text-align: right;
 }
 /*# sourceMappingURL=style.css.map */
