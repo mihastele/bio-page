@@ -243,6 +243,10 @@ hr {
     }
 }
 */
+.services {
+  margin-top: 64px;
+}
+
 .services .row .col-md * {
   text-align: center;
 }
@@ -269,6 +273,7 @@ hr {
 
 .skills {
   width: 100%;
+  margin-top: 64px;
   /*
     * {
          text-align: right;
