@@ -302,6 +302,10 @@ hr {
   width: 100px;
 }
 
+.card {
+  margin: 32px auto;
+}
+
 .cardFrame {
   display: -webkit-box;
   display: -ms-flexbox;
