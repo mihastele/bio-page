@@ -8,7 +8,7 @@ $darker: #4e1608;
 $maincolor-bg-opacity: 90%;
 
 $font-primary: "Jost", Arial, serif;
-$font-forHeadings: "Kaushan Script", cursive;
+$font-forHeadings: "Pacifico", cursive; // "Kaushan Script"
 
 $font-desc-color: #aaa;
 
@@ -362,6 +362,6 @@ hr {
 
     .btn {
         background-color: $maincolor;
-        border-color: $maincolor;;
+        border-color: $maincolor;
     }
 }

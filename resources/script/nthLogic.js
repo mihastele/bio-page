@@ -33,8 +33,8 @@ var liPairsEducation = [["Bachelor CS Degree", "2015-2018", "Faculty of Computer
 liPairsEducation.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
 <div>
-    <p style="margin: 0; padding: 0; font-weight: 900; text-align: center; font-family: Helvetica">${liPair[0]}</p>
-    <p style="margin: 0; padding: 0; text-align: center; font-family: Helvetica"><span style="display: inline-block;margin-right: 8px;">(${liPair[1]})</span>
+    <p style="margin: 0; padding: 0; font-weight: 900; text-align: center;">${liPair[0]}</p>
+    <p style="margin: 0; padding: 0; text-align: center;"><span style="display: inline-block;margin-right: 8px;">(${liPair[1]})</span>
         <span style="display: inline-block;">${liPair[2]}</span></p>
 
 </div>
@@ -49,8 +49,8 @@ var liPairsWork = [["QA Automation Engineer", "2019-", "Beenius"],
 liPairsWork.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
 <div>
-    <p style="margin: 0; padding: 0; font-weight: 900; text-align: center; font-family: Helvetica">${liPair[0]}</p>
-    <p style="margin: 0; padding: 0; text-align: center; font-family: Helvetica"><span style="display: inline-block;margin-right: 8px;">(${liPair[1]})</span>
+    <p style="margin: 0; padding: 0; font-weight: 900; text-align: center;">${liPair[0]}</p>
+    <p style="margin: 0; padding: 0; text-align: center;"><span style="display: inline-block;margin-right: 8px;">(${liPair[1]})</span>
         <span style="display: inline-block;">${liPair[2]}</span></p>
 
 </div>
