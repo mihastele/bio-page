@@ -18,6 +18,10 @@ $font-desc-color: #aaa;
     font-family: $font-primary;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: $font-forHeadings;
 }

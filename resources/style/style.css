@@ -4,6 +4,10 @@
   font-family: "Jost", Arial, serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: "Pacifico", cursive;
 }
