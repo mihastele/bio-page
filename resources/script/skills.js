@@ -128,8 +128,46 @@ function sortByKey(array, key) {
 // items = sortByKey(items, "percentage");
 
 
-colorsByLevel = ["bg-danger", "bg-warning", "bg-info", "bg-success"]
+// colorsByLevel = ["bg-danger", "bg-warning", "bg-info", "bg-success"]
 
+// colorsByLevel = ["bg-info", "bg-info", "bg-success", "bg-success"]
+
+items.forEach(item => {
+    let levelString;
+    if (item.percentage < 50) {
+        levelString = `<div class="row">
+        <div class="col-xl-1">
+            <p>${item.name}</p>
+        </div>
+        <div class="col-11">
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated"
+                    role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                    style="width: ${item.percentage}%;height: 100%; background-color: #00a8ff"></div>
+            </div>
+        </div>
+        </div>`
+    } else {
+
+        levelString = `<div class="row">
+        <div class="col-xl-1">
+            <p>${item.name}</p>
+        </div>
+        <div class="col-11">
+            <div class="progress">
+                <div class="progress-bar-animated bg-success" role="progressbar"
+                    style="width: ${item.percentage}%; height: 100%;" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+        </div>
+        </div>`;
+    }
+    $("#skillcont").append(levelString);
+
+});
+
+
+/*
 items.forEach(item => {
     let levelString, color;
     if (item.percentage < 50) {
@@ -197,7 +235,7 @@ items.forEach(item => {
 
     }
     $("#skillcont").append(levelString);
-})
+})*/
 
 
 /*
@@ -225,5 +263,4 @@ String lowLevelStr = `<div class="row">
             style="width: 75%;height: 100%;"></div>
     </div>
 </div>
-</div>`;
-*/
+</div>`;  */
