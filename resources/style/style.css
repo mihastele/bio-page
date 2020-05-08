@@ -1,3 +1,9 @@
+/* sel 1
+$maincolor: #e84118;
+$sligthlyBrigter: #eb5a37;
+$bright: #f4a794;
+$slightlyDarker: #ab2f11;
+$darker: #4e1608;*/
 * {
   margin: 0;
   padding: 0;
@@ -36,7 +42,7 @@ section {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-color: #e84118;
+  background-color: #00a8ff;
   opacity: 90%;
 }
 
@@ -191,12 +197,12 @@ section {
 .odd h2,
 .odd h3,
 .odd p {
-  color: #e84118;
+  color: #00a8ff;
   opacity: 90%;
 }
 
 .even {
-  background-color: rgba(232, 65, 24, 0.9);
+  background-color: rgba(0, 168, 255, 0.9);
 }
 
 .even h1,
@@ -213,12 +219,12 @@ section {
 .timeline {
   width: 200px;
   position: absolute;
-  border-top: 3px solid rgba(232, 65, 24, 0.9);
-  border-left: 3px solid rgba(232, 65, 24, 0.9);
+  border-top: 3px solid rgba(0, 168, 255, 0.9);
+  border-left: 3px solid rgba(0, 168, 255, 0.9);
 }
 
 hr {
-  border-top: 2px solid rgba(232, 65, 24, 0.9);
+  border-top: 2px solid rgba(0, 168, 255, 0.9);
 }
 
 #education,
@@ -263,7 +269,7 @@ hr {
   display: inline-block;
   margin: 16px;
   font-size: 32px;
-  color: #e84118;
+  color: #00a8ff;
 }
 
 .services .row .col-md div {
@@ -343,7 +349,7 @@ hr {
 }
 
 .card-body .btn {
-  background-color: #e84118;
-  border-color: #e84118;
+  background-color: #00a8ff;
+  border-color: #00a8ff;
 }
 /*# sourceMappingURL=style.css.map */
