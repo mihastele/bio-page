@@ -64,7 +64,7 @@ var liPairsFree = [["Professional website projects (including this profile page)
 ["Home made loudspeaker", "2020"], ["Bladeless fan with 3D printer", "2019"],
 ["Personal social media application", "2019"],
 ["Tower defense Android application with LibGDX", "2017"],
-["Contribute to open source in free time", "2017-"]];
+["Contribute to open-source in free time", "2017-"]];
 
 liPairsFree.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
