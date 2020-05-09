@@ -63,7 +63,7 @@ section {
         opacity: $maincolor-bg-opacity;
     }
     .innerCenter {
-        display: flex;
+        display: inline-flex;
         //display: inline-block;
         height: 62%;
         width: 62%;
@@ -397,7 +397,11 @@ hr {
 }
 
 .border3pxtop {
+    margin-top: 30px;
     border-top: 3px $maincolor solid;
+    h2 {
+        margin-top: 20px;
+    }
 }
 
 .mainBgClr {

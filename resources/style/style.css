@@ -47,9 +47,9 @@ section {
 }
 
 .profileAvatarRegion .innerCenter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 62%;
   width: 62%;
   position: relative;
@@ -369,7 +369,12 @@ hr {
 }
 
 .border3pxtop {
+  margin-top: 30px;
   border-top: 3px #00a8ff solid;
+}
+
+.border3pxtop h2 {
+  margin-top: 20px;
 }
 
 .mainBgClr {
