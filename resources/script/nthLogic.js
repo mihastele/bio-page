@@ -44,7 +44,7 @@ liPairsEducation.forEach(liPair => {
 
 
 var liPairsWork = [["QA Automation Engineer", "2019-", "Beenius"],
-["Software engineer", "2017-2019", "Beenius"]];
+["Software Engineer", "2017-2019", "Beenius"]];
 
 liPairsWork.forEach(liPair => {
     var struct = `<li style="margin-top: 20px">
