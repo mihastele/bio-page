@@ -1,29 +1,8 @@
-# README #
+# Bio Page
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## About
+This is just a simple static page, I host to represent myself.
 
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+## Comments are welcome
+This may not be the most optimist or perfectly design web page ever, so I am more than happy to anyone regarding any kind of SEO optimisation suggestion, etc.
+Please let me know if you suggest writing any kind of style or code in a better pattern.
