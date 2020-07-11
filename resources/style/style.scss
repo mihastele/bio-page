@@ -7,15 +7,11 @@ $bright: #f4a794;
 $slightlyDarker: #ab2f11;
 $darker: #4e1608;*/
 
-
 $maincolor: #00a8ff;
 $sligthlyBrigter: #22b4ff;
 $bright: #77d1ff;
 $slightlyDarker: #0070aa;
 $darker: #002d44;
-
-
-
 
 $maincolor-bg-opacity: 90%;
 
@@ -67,7 +63,7 @@ section {
         opacity: $maincolor-bg-opacity;
     }
     .innerCenter {
-        display: flex;
+        display: inline-flex;
         //display: inline-block;
         height: 62%;
         width: 62%;
@@ -120,6 +116,24 @@ section {
                     i {
                         font-size: 32px;
                     }
+                }
+            }
+        }
+    }
+}
+
+.resources {
+    .row {
+        .col-sm {
+            .cutoff {
+                display: flex;
+                margin: 20px auto;
+                width: 220px;
+                height: 220px;
+                overflow: hidden;
+                * {
+                    height: 220px;
+                    margin: 0 auto;
                 }
             }
         }
@@ -379,5 +393,31 @@ hr {
     .btn {
         background-color: $maincolor;
         border-color: $maincolor;
+    }
+}
+
+.border3pxtop {
+    margin-top: 30px;
+    border-top: 3px $maincolor solid;
+    h2 {
+        margin-top: 20px;
+    }
+}
+
+.mainBgClr {
+    background-color: $maincolor;
+}
+
+.viewGithub {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 32px;
+    width: 180px;
+    span {
+        width: 100%;
+        color: white;
+        text-align: center;
+        font-weight: 700;
     }
 }

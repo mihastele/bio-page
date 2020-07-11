@@ -47,9 +47,9 @@ section {
 }
 
 .profileAvatarRegion .innerCenter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 62%;
   width: 62%;
   position: relative;
@@ -107,6 +107,21 @@ section {
 
 .profileAvatarRegion .innerCenter .alignedChildren .social a i {
   font-size: 32px;
+}
+
+.resources .row .col-sm .cutoff {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px auto;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+}
+
+.resources .row .col-sm .cutoff * {
+  height: 220px;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 600px) {
@@ -351,5 +366,35 @@ hr {
 .card-body .btn {
   background-color: #00a8ff;
   border-color: #00a8ff;
+}
+
+.border3pxtop {
+  margin-top: 30px;
+  border-top: 3px #00a8ff solid;
+}
+
+.border3pxtop h2 {
+  margin-top: 20px;
+}
+
+.mainBgClr {
+  background-color: #00a8ff;
+}
+
+.viewGithub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-top: 32px;
+  width: 180px;
+}
+
+.viewGithub span {
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */
